@@ -18,17 +18,17 @@ if requirements_path.exists():
     requirements = [req.strip() for req in requirements if req.strip() and not req.startswith("#")]
 
 setup(
-    name="pii-incident-redaction",
+    name="incident-pii-redactor",
     version="1.0.0",
     author="PII Redaction Team",
     author_email="team@pii-redaction.com",
     description="A comprehensive multi-stage pipeline for automatically detecting, removing, and pseudonymizing PII from incident reports",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/kishorealliiita/pii-incident-redaction",
+    url="https://github.com/kishorealliiita/incident-pii-redactor",
     project_urls={
-        "Bug Reports": "https://github.com/kishorealliiita/pii-incident-redaction/issues",
-        "Source": "https://github.com/kishorealliiita/pii-incident-redaction",
+        "Bug Reports": "https://github.com/kishorealliiita/incident-pii-redactor/issues",
+        "Source": "https://github.com/kishorealliiita/incident-pii-redactor",
     },
     packages=find_packages(),
     classifiers=[
